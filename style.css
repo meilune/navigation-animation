@@ -22,6 +22,26 @@ a {
   text-decoration: none;
 }
 
+.home {
+  background-color: #260101;
+}
+
+.about {
+  background-color: #D96B52;
+}
+
+.skills {
+  background-color: #F2D338;
+}
+
+.projects {
+  background-color: #1F3740;
+}
+
+.contact {
+  background-color: #F27289;
+}
+
 nav {
   position: fixed;
   height: 100%;
@@ -32,9 +52,24 @@ nav {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
+  margin: auto;
 }
 
-nav ul {
+nav .menu {
+  display: none;
+  position: absolute;
+  font-size: 48px;
+  padding: 2rem;
+}
+
+nav .exit {
+  display: inline-block;
+  position: absolute;
+  font-size: 48px;
+  padding: 2rem;
+}
+
+nav .navigation-items {
   list-style-type: none;
   text-align: center;
   display: -webkit-box;
@@ -54,7 +89,7 @@ nav ul {
   width: 100%;
 }
 
-nav ul li {
+nav .navigation-items span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -96,25 +131,5 @@ nav ul li {
           align-items: center;
   height: 100%;
   width: 100%;
-}
-
-.container .home {
-  background-color: #260101;
-}
-
-.container .about {
-  background-color: #D96B52;
-}
-
-.container .skills {
-  background-color: #F2D338;
-}
-
-.container .projects {
-  background-color: #1F3740;
-}
-
-.container .contact {
-  background-color: #F27289;
 }
 /*# sourceMappingURL=style.css.map */
