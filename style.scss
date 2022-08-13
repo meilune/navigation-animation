@@ -1,0 +1,68 @@
+@import url("https://use.typekit.net/fiu2sfj.css");
+
+$dark: #260101;
+$orange: #D96B52;
+$yellow: #F2D338;
+$green: #1F3740;
+$pink: #F27289;
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: new-kansas, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: #fff;
+}
+
+h1 {
+    font-size: 88px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav {
+    position: fixed;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: middle;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 0;
+    text-align: center;
+    .basic {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+    .home {
+        background-color: $dark;
+    }
+    .about {
+        background-color: $orange;
+    }
+    .skills {
+        background-color: $yellow;
+    }
+    .projects {
+        background-color: $green;
+    }
+    .contact {
+        background-color: $pink;
+    }
+}
