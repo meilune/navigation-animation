@@ -106,6 +106,12 @@ nav .navigation-items span {
   height: 100%;
   width: 100%;
   font-size: 48px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+nav .navigation-items span:hover {
+  font-size: 58px;
 }
 
 nav .navigation-items .home {
@@ -135,8 +141,8 @@ nav .navigation-items .contact {
 
 @-webkit-keyframes moveToRight {
   0% {
-    -webkit-transform: translateX(-800px);
-            transform: translateX(-800px);
+    -webkit-transform: translateX(-100vw);
+            transform: translateX(-100vw);
   }
   100% {
     -webkit-transform: translateX(0px);
@@ -146,8 +152,8 @@ nav .navigation-items .contact {
 
 @keyframes moveToRight {
   0% {
-    -webkit-transform: translateX(-800px);
-            transform: translateX(-800px);
+    -webkit-transform: translateX(-100vw);
+            transform: translateX(-100vw);
   }
   100% {
     -webkit-transform: translateX(0px);
